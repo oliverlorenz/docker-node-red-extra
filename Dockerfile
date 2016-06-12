@@ -7,5 +7,4 @@ RUN apt-get update && apt-get install -y cron nmap
 
 EXPOSE 1880
 
-ENTRYPOINT ["npm", "run", "start", "--"]
 CMD ["/usr/local/bin/node-red"]
